@@ -13,3 +13,4 @@ print('count', count, '\n', 'values: ', count.values(), '\n', 'keys: ', count.ke
 # a succinct way to iterate through two variables over tuples
 for aaaa, bbbb in count.items():
     print(aaaa, ':', bbbb)
+ 

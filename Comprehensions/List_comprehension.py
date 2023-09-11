@@ -19,3 +19,11 @@ print("Divisible by four minus one: ", fourxsub)
 # Ex5: Using range function:
 nines = [x for x in range(100) if x%9 == 0]
 print("Nines: ", nines)
+
+#Comprehensions provide a short-hand and elegant way of updating sequences
+# List comprehension:
+data = [x+3 for x in data]
+
+# Regular for loop:
+for x in range(len(data)):
+    data[x] = data[x] + 3
